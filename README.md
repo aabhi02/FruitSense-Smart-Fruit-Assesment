@@ -1,1 +1,1 @@
-# FruitSense-Smart-Fruit-Assesment
+# FruitSense: Smart Fruit Assesment
