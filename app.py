@@ -17,7 +17,7 @@ lime_model = load_model('./models/bestLimeModel01.h5')  # Replace with your actu
 orange_model = load_model('./models/bestOrangeModel01.h5')  # Replace with your actual filename
 
 def clf(img):
-    img = cv2.resize(img, (256, 256, 3))  # Ensure the image size matches your model input size
+    img = cv2.resize(img, (256, 256))  # Ensure the image size matches your model input size
     img = img / 255.0  # Normalize pixel values
 
     # Expand dimensions to match the model input shape (add batch dimension)
